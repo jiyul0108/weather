@@ -14,7 +14,7 @@ body { /* 배경색 */
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 20px;
+    margin: 20px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -52,4 +52,44 @@ body { /* 배경색 */
 
 .search button img { /* 버튼 안 이미지 크기 조절 */
     width: 16px;
+}
+
+.weather-icon { /* 날씨 아이콘 크기 조절 */
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{ /* h1의 글씨 크기 조절 */
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{ /* h2의 글씨 크기 조절 */
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {  /* details 안에 있는 값들을 정렬 */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col { /* col의 글씨 위치 조정 */
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img { /* img의 크기 조정 */
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 28px;
+    margin-top: -6px;
 }
